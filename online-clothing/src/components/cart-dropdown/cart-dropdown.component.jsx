@@ -1,12 +1,14 @@
-import React from "react";
+import React from 'react';
 
-import CustomButton from "../custom-bottom/custom-button.component";
+import CustomButton from '../custom-button/custom-button.component';
 
-import "./cart-dropdown.style.scss";
+import './cart-dropdown.styles.scss';
+
 const CartDropdown = () => (
-  <div className="cart-dopdown">
-    <div className="cart-items"></div>
+  <div className='cart-dropdown'>
+    <div className='cart-items' />
     <CustomButton>GO TO CHECKOUT</CustomButton>
   </div>
 );
+
 export default CartDropdown;

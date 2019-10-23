@@ -1,5 +1,4 @@
 .custom-button {
-  margin: 5px;
   min-width: 165px;
   width: auto;
   height: 50px;
@@ -10,7 +9,7 @@
   background-color: black;
   color: white;
   text-transform: uppercase;
-  font-family: "Open Sans Condensed";
+  font-family: 'Open Sans Condensed';
   font-weight: bolder;
   border: none;
   cursor: pointer;
@@ -26,7 +25,7 @@
     color: white;
 
     &:hover {
-      background-color: #034dc5;
+      background-color: #357ae8;
       border: none;
     }
   }
